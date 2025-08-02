@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - FORȚAT ÎNTUNECAT -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Sau parent="Theme.MaterialComponents.DarkActionBar" dacă vrei un ActionBar default stilat de temă -->
+        <!-- Sau chiar direct Theme.MaterialComponents.Dark.NoActionBar dacă vrei să fii mai explicit,
+             dar configurarea de mai jos va face tema întunecată oricum. -->
+
+        <!-- Culori primare -->
+        <item name="colorPrimary">@color/otherblack</item>
+        <item name="colorPrimaryVariant">@color/app_primary_variant_dark</item>
+        <item name="colorOnPrimary">@color/app_on_primary_dark</item>
+
+        <!-- Culori secundare -->
+        <item name="colorSecondary">@color/app_secondary_dark</item>
+        <item name="colorSecondaryVariant">@color/app_secondary_variant_dark</item>
+        <item name="colorOnSecondary">@color/app_on_secondary_dark</item>
+
+        <!-- Alte culori fundamentale pentru tema întunecată -->
+        <item name="android:colorBackground">@color/app_background_dark</item>
+        <item name="colorSurface">@color/app_surface_dark</item>
+        <item name="colorError">@color/app_error_dark</item>
+
+        <item name="colorOnBackground">@color/app_on_background_dark</item>
+        <item name="colorOnSurface">@color/app_on_surface_dark</item>
+        <item name="colorOnError">@color/app_on_primary_dark</item> <!-- Sau o culoare specifică -->
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/app_primary_variant_dark</item>
+        <!-- <item name="android:statusBarColor">@color/app_background_dark</item> -->
+
+        <!-- Asigură-te că iconițele din status bar sunt deschise la culoare -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- (Opțional) Forțează și alte atribute specifice modului întunecat dacă e nevoie -->
+        <!-- De exemplu, textul din ActionBar -->
+        <item name="android:textColorPrimary">@color/app_on_surface_dark</item>
+        <item name="android:textColorSecondary">@color/app_on_surface_dark</item> <!-- Ajustează la o culoare mai estompată dacă e cazul -->
+        <item name="actionMenuTextColor">@color/app_on_primary_dark</item> <!-- Pentru meniurile din ActionBar/Toolbar -->
+
+    </style>
+</resources>

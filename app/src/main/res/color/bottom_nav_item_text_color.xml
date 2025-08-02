@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Culoare pentru itemul selectat (checked) -->
+    <item android:color="@color/app_on_surface_dark" android:state_checked="true" />
+    <!-- Sau o altă culoare deschisă pe care o preferi pentru textul selectat, ex: @color/white -->
+
+    <!-- Culoare pentru itemul neselectat (implicit) -->
+    <!-- Poți alege o culoare puțin mai estompată decât cea selectată -->
+    <item android:color="@color/app_on_surface_dark_disabled" />
+    <!-- Sau folosește aceeași culoare dacă vrei ca doar iconița să se schimbe mai vizibil -->
+    <!-- <item android:color="@color/app_on_surface_dark" /> -->
+</selector>

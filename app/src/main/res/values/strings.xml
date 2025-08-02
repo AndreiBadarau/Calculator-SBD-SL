@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SBD SL CALCULATOR</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="squat">Squat</string>
+    <string name="bench_press">Bench Press</string>
+    <string name="deadlift">Deadlift</string>
+    <string name="rm">RM</string>
+    <string name="pull_up">Pull Up</string>
+    <string name="muscle_up">Muscle Up</string>
+    <string name="dips">Dips</string>
+    <string name="sbd">SBD</string>
+    <string name="sl">SL\n</string>
+    <string-array name="formulas">
+        <item>Epley</item>
+        <item>Brzycki</item>
+        <item>Lander</item>
+    </string-array>
+</resources>

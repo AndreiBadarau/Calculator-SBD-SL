@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Culoarea de fundal a TextView-ului -->
+    <!-- Aceasta este culoarea pe care o aveai înainte: #353535 -->
+    <solid android:color="#353535" />
+
+    <!-- Colțuri rotunjite -->
+    <!-- Ajustează valoarea android:radius după preferințe -->
+    <!-- O valoare bună pentru a începe ar putea fi între 8dp și 16dp -->
+    <corners android:radius="12dp" />
+
+    <!-- (Opțional) Dacă vrei și o margine (stroke) în jurul TextView-ului, o poți adăuga aici -->
+    <!--
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+    -->
+
+</shape>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_sbd_main">
+
+    <fragment
+        android:id="@+id/navigation_sbd_main"
+        android:name="com.licenta.calculator.ui.sbd.SbdMainFragment"
+        android:label="SBD"
+        tools:layout="@layout/fragment_sbd_main">
+        <action
+            android:id="@+id/action_sbdMain_to_squat"
+            app:destination="@id/navigation_squat" />
+        <action
+            android:id="@+id/action_sbdMain_to_bench_press"
+            app:destination="@id/navigation_bench_press" />
+        <action
+            android:id="@+id/action_sbdMain_to_deadlift"
+            app:destination="@id/navigation_deadlift" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sl_main"
+        android:name="com.licenta.calculator.ui.sl.SlMainFragment"
+        android:label="Street Lifting"
+        tools:layout="@layout/fragment_sl_main">
+        <action
+            android:id="@+id/action_slMain_to_pull_up"
+            app:destination="@id/navigation_pull_up" />
+        <action
+            android:id="@+id/action_slMain_to_muscle_up"
+            app:destination="@id/navigation_muscle_up" />
+        <action
+            android:id="@+id/action_slMain_to_dips"
+            app:destination="@id/navigation_dips" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_squat"
+        android:name="com.licenta.calculator.ui.squat.SquatFragment"
+        android:label="@string/squat"
+        tools:layout="@layout/fragment_squat" />
+
+    <fragment
+        android:id="@+id/navigation_bench_press"
+        android:name="com.licenta.calculator.ui.benchpress.BenchPressFragment"
+        android:label="@string/bench_press"
+        tools:layout="@layout/fragment_bench_press" />
+
+    <fragment
+        android:id="@+id/navigation_deadlift"
+        android:name="com.licenta.calculator.ui.deadlift.DeadliftFragment"
+        android:label="@string/deadlift"
+        tools:layout="@layout/fragment_deadlift" />
+
+    <fragment
+        android:id="@+id/navigation_pull_up"
+        android:name="com.licenta.calculator.ui.pullup.PullUpFragment"
+        android:label="@string/pull_up"
+        tools:layout="@layout/fragment_pull_up" />
+
+    <fragment
+        android:id="@+id/navigation_muscle_up"
+        android:name="com.licenta.calculator.ui.muscleup.MuscleUpFragment"
+        android:label="@string/muscle_up"
+        tools:layout="@layout/fragment_muscle_up" />
+
+    <fragment
+        android:id="@+id/navigation_dips"
+        android:name="com.licenta.calculator.ui.dips.DipsFragment"
+        android:label="@string/dips"
+        tools:layout="@layout/fragment_dips" />
+
+</navigation>
